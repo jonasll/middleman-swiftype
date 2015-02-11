@@ -11,6 +11,10 @@ module Middleman
     # This class provides a "swiftype" command for the middleman CLI.
     class Swiftype < Thor
       include Thor::Actions
+      
+      require 'nokogiri'
+      require 'swiftype'
+      require 'digest'
 
       check_unknown_options!
 
