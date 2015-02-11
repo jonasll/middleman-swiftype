@@ -53,8 +53,8 @@ EOF
       end
 
       def swiftype_options(shared_instance)
-        require 'swiftype'
         require 'nokogiri'
+        require 'swiftype'
         require 'digest'
 
         options = nil
